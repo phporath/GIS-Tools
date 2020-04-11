@@ -1,0 +1,43 @@
+Transformação de Graus Decimais em Graus Minutos Segundos (GMS)
+
+
+GRAUS ----> INT([NEAR_DIST])
+
+Sobra GRAUS ---> (([NEAR_DIST] -[Graus])*60)
+
+MINUTOS ----> INT([Sobra_Grau])
+
+Sobra Minutos ---> (([Sobra_Grau]*60) - INT([Sobra_Grau]*60))
+
+SEGUNDOS ----> ([Sobra_Min]*60)
+
+GMS ----> [Graus]&"º"& [Minutos]&"'"&[Segundos]
+
+----x----x----x----x----x----x----x----x----x----x----x----x----x
+
+Transformação um valor angular em distância
+
+
+Cálculo Graus (CalGraus)---> [Graus]*60
+
+Cálculo Minutos (CalMin)---> [Minutos]*1
+
+Cálculo Segundos (CalSeg) ---> CS
+
+Distância em Kilômetros ----> ([CalGraus]+ [CalMin]+ [CalSeg])*1.852
+
+OBS: (1.852 é a conversão de NM para KM)
+
+
+Fonte: http://www.pilotopolicial.com.br/calculando-distancias-e-direcoes-utilizando-coordenadas-geograficas/
+
+
+graus = Int ( [dist1])
+sobraGraus = (( [dist1] - graus)*60)
+minutos = Int (sobraGraus)
+sobraMinutos = ((sobraGraus*60) - Int (sobraGraus*60))
+segundos = (sobraMinutos*60)
+CalGraus = graus*60
+CalMin = minutos*1
+CalSeg = segundos/60
+distKm = (CalGraus+CalMin+CalSeg)*1,852

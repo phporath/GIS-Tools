@@ -1,0 +1,14 @@
+Catálogo das Ferramentas
+
+1) Model Builder - Ferramentas Dissertação
+
+Ferramentas desenvolvidas para compor pesquisa de dissertação de mestrado de Pedro Henrique Machado Porath
+
+	1.1) Análise Booleana
+		- Sequência de cálculos para definição de mapas booleano.
+
+	1.2) Análise Multicritério (AHP)
+		- Sequência de cálculos para definição de mapas AHP.
+
+	1.3) Estruturacao do GDB
+		- Etapas para estruturação do Geodatabase.

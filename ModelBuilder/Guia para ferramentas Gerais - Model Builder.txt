@@ -1,0 +1,77 @@
+Catálogo das Ferramentas
+
+1) Model Builder - Ferramentas Gerais
+
+	1.1) Ajustes SHP
+		- Análise de Proximidade de Vizinhança
+		- Análise de Proximidade de Vizinhança - Iterador
+		- Cálculo de Área Zona UTM
+		- Clip em Lote
+		- Compilador de arquivos SHP
+		- Compilador de arquivos SHP por Tipo e Nome
+		- Compilador de arquivos SHP por Tipo e Nome - Iterador
+		- Determinador de Vazios entre Área de Captação
+		- Diagnóstico de Áreas
+		- Diagnóstico de Linhas
+		- Diagnóstico de Pontos
+		- Exportar SHP para Excel com critério de seleção
+		- Exportar Vértices para Tabela Excel (Memorial Descritivo)
+		- Padronizador de Projeção em Lote
+		- Padronizador de Projeção em Lote - Iterador
+		- Separador de Áreas de Captação (SAC)
+		- Separador de SHP a partir de critério escolhido
+
+
+	1.2) Ajustes CAD
+		- Conversor de CAD (Layers específicas) para SHP em Lote
+
+	1.3) Análises de APP
+		- APP de Topo de Morro (Fernandes e Oliveira, 2013)
+		- APP de Topo de Morro (Oliveira, 2015)
+		- APP de Topo de Morro (Adaptações da metodologia de Fernandes e Oliveira (2013) e Oliveira (2015))
+
+	1.4) Análises com Raster
+		- Bandas de Infravermelho Próximo
+		- Bandas SWIR
+		- Bandas Verdes
+		- Bandas Vermelhas
+		- Combinação e Fusão de Bandas
+		- Raster - Iterador
+		- Massa d'água por NDWI
+		- Massa d'água por NDWI - com identificacao automatica de bandas para criação de mosaico
+		- Massa d'água por NDWI - mosaico
+		- Mosaico de Imagem Landsat 8
+		- NDBI
+		- NDVI
+		- NDWI
+		- Raster - Iterador
+		- Recorte de Mosaico por Quadrícula
+		
+	1.5) Análises de Modais
+		- Analise de padrão de Rodovias
+		- Cálculo de distância
+		- Cálculo de distância com aplicação de Dissolve
+		- Cálculo de OD
+		- Cálculo de OD Padrão LabTrans
+		
+	1.6) Batimetria (Testes)
+		- Extração de Batimetria
+		- Extração de Batimetria Linha
+		- Extração de Batimetria Polígono
+		- Extração de Batimetria Polígono 2
+
+	1.7) Poligonais de TUPs
+		- Junção de Camada de Poligonais de TUP
+		- Junção de Camada de Poligonais de TUP - Iterador
+		- Junção de Camada de Poligonais de TUP - PadraoAntigo
+	
+	1.8) Tabelas de Atributos
+		- Identificador de Campos Extras
+		- Identificador de Campos Extras - Iterador
+		- Identificador de Campos Extras - Modelo Único
+		- Junção de Feature Classes
+		- Junção de Features Classes - Iterador
+		- Junção de Shapefiles
+		- Junção de Shapefiles - Iterador
+		- Padronizador de Projeção em Lote
+		- Padronizador de Projeção em Lote - Iterador
